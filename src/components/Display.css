@@ -1,0 +1,14 @@
+
+
+
+.display {
+    grid-column: span 4;
+    color: #fff;
+    font-size: 45px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items:unset;
+    padding: 10px;
+    align-items: flex-end;
+}

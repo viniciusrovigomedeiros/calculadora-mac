@@ -1,0 +1,56 @@
+
+
+
+.button {
+    font-size: 1.4em;
+    background-color: #797777;
+    border: none;
+    border-right: solid 1px #888;
+    border-bottom: solid 1px #888;
+    outline: none;
+    /* margin-bottom: 1px; */
+    color: #FFF;
+    border-color: rgb(33, 33, 33);
+    font-weight: bold;
+}
+
+.button:active{
+    background-color: rgb(198, 198, 198);
+}
+
+.button.operation2{
+    background-color: #656565;
+    color: #FFF;
+}
+.button.operation2:active{
+    background-color: #3e3d3d;
+}
+.button.operation{
+    background-color: #fea231;
+    color: #FFF;
+}
+
+
+.button.operation:active{
+    background-color: #fa8231cc;
+    color: #FFF;
+}
+
+
+.button.maisMenos{
+    background-color: #656565;
+    color: #FFF;
+    font-size: 15px;
+}
+.button.maisMenos:active{
+    background-color: #3e3d3d;
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+    background-color: #656565;
+}
